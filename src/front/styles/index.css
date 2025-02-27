@@ -1,3 +1,27 @@
-/* 
-    General Styles used on every website (Don't Repeat Yourself)
-*/
+/*-----------------Style NavBar---------------*/
+*{
+    font-family: "Crimson Text", serif;
+}
+.navbar {
+    background: #0f1345;
+}
+
+.logo-nav {
+    width: 3.8rem;
+    height: 3.8rem;
+}
+
+.nav-link {
+    color: #47d7a3;
+
+    &:hover {
+        color: #d69231;
+        -webkit-transform: translateY(-0.25em);
+        transform: translateY(-0.25em);
+    }
+}
+.nav-span {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
