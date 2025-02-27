@@ -1,7 +1,77 @@
-/*
-    home.css: This website contains selectors only used in home.css
+.header-home {
+    clip-path: ellipse(100% 55% at 48% 44%);
+    width: 100%;
+    height: 35rem;
+    background: linear-gradient(to right, hsla(177, 95%, 50%, 0.459), hsla(27, 45%, 52%, 0.664));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    position: relative;
+    animation-name: portadaAnimation;
+    animation-duration: 2s;
 
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+}
+
+.img-portada {
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70%;
+    /* animation-name: portadaAnimation;
+        animation-duration: 1s; */
+}
+
+.home-tittle {
+    position: absolute;
+    margin-top: 15%;
+    font-size: 7rem;
+    color: white;
+    font-weight: 600;
+    text-shadow: 0 0 8px #0f1345, 0 0 9px #47d7a3;
+    animation-name: tittleAnimation;
+    animation-duration: 8s;
+}
+
+@keyframes portadaAnimation {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes tittleAnimation {
+    from {
+        color: #ffffff00;
+        font-weight: 600;
+        text-shadow: none;
+    }
+
+    to {
+        color: white;
+        font-weight: 600;
+        text-shadow: 0 0 8px #0f1345, 0 0 9px #47d7a3;
+    }
+}
+
+/* Media query for small devices */
+@media (max-width: 950px) {
+    .header-home {
+        height: 10rem;
+    }
+
+    .portada {
+        width: 100%;
+        height: 60%;
+    }
+
+    .home-tittle {
+        font-size: 1.5rem;
+    }
+
+}
