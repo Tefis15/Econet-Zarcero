@@ -1,40 +1,238 @@
+/*--------------Header------------------*/
 .header-home {
     clip-path: ellipse(100% 55% at 48% 44%);
-    width: 100%;
-    height: 35rem;
-    background: linear-gradient(to right, hsla(177, 95%, 50%, 0.459), hsla(27, 45%, 52%, 0.664));
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
+    background-position: center bottom;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    width: 100%;
+    height: 22rem;
     position: relative;
-    animation-name: portadaAnimation;
-    animation-duration: 2s;
-
 }
 
 .img-portada {
     object-fit: cover;
+    object-position: bottom;
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-    height: 70%;
-    /* animation-name: portadaAnimation;
-        animation-duration: 1s; */
+    height: 70vh;
+}
+
+.div-img-antena {
+    background-image: url('https://i.postimg.cc/pTF58HFd/20240909-090816.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    clip-path: ellipse(100% 55% at 48% 44%);
 }
 
 .home-tittle {
+    text-align: center;
+    margin-right: 2rem;
     position: absolute;
-    margin-top: 15%;
-    font-size: 7rem;
+    left: 55%;
+    font-family: "Orbitron", serif;
+    top: 5%;
+    font-size: 3.3vw;
     color: white;
-    font-weight: 600;
-    text-shadow: 0 0 8px #0f1345, 0 0 9px #47d7a3;
+    font-weight: 800;
+    text-shadow: 0 0 8px #af6817, 0 0 9px #06cf6e;
     animation-name: tittleAnimation;
-    animation-duration: 8s;
+    animation-duration: 5s;
+    max-width: 90%;
+    letter-spacing: 2px;
+    padding: 15px;
+    background: rgba(2, 6, 58, 0.5);
+    border-radius: 10px;
 }
 
+.btn-header{
+    right: 5%;
+    bottom: 15%;
+    position: absolute;
+    background: #06cf6e;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px 10px rgba(71, 215, 163, 0.5);
+}
+
+.btn-header:hover {
+    background: #ffe81e;
+    color: #fff;
+    transform: scale(1.05);
+    color: #0f1345
+}
+
+.tittles-home {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #0f1345;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 3px 3px 8px rgba(71, 215, 163, 0.7);
+    letter-spacing: 2px;
+    border-bottom: 4px solid #06cf6e;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+/*--------------Beneficios---------------*/
+.beneficios-container {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 6rem;
+}
+
+
+.beneficios-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.beneficio {
+    background: #ffffff;
+    border: 2px solid #06cf6e;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.beneficio:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 15px rgba(71, 215, 163, 0.5);
+}
+
+.beneficio i {
+    font-size: 3rem;
+    color: #ffe81e;
+    margin-bottom: 10px;
+}
+
+.beneficio-tittle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0f1345;
+}
+
+.beneficio-parrafo {
+    font-size: 1rem;
+    color: #0f1345;
+}
+
+
+/*--------------Servicios---------------*/
+.servicios-container {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 6rem;
+}
+
+
+.servicios-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.servicio {
+    background: #ffffff;
+    border: 2px solid #06cf6e;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 500px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.servicio:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 15px rgba(71, 215, 163, 0.5);
+}
+
+.servicio i {
+    font-size: 3rem;
+    color: #ffe81e;
+    margin-bottom: 10px;
+}
+
+.servicio span {
+    color: #0f1345;
+    margin: 2rem;
+    font-size: 3rem;
+}
+
+.servicio-tittle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0f1345;
+}
+
+.servicio-parrafo {
+    font-size: 1rem;
+    color: #0f1345;
+}
+
+/*--------------Tarjeta de Contacto---------------*/
+.contactenos-home-container{
+    height: auto;
+}
+.contacto-page {
+    display: flex;
+    width: 100%;
+  }
+
+  .contacto-imagen {
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .contacto-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+
+  .contacto-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #0f1345; 
+    color: #fff;
+  }
+  
+  .contacto-info p {
+    width: 70vh;
+    margin: auto;
+    margin-top: 0;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+
+
+/* Adaptación para dispositivos móviles */
 @keyframes portadaAnimation {
     from {
         width: 0%;
@@ -48,30 +246,83 @@
 @keyframes tittleAnimation {
     from {
         color: #ffffff00;
-        font-weight: 600;
+        font-weight: 800;
         text-shadow: none;
     }
 
     to {
         color: white;
-        font-weight: 600;
-        text-shadow: 0 0 8px #0f1345, 0 0 9px #47d7a3;
+        font-weight: 800;
+        text-shadow: 0 0 8px #af6817, 0 0 9px #06cf6e;
     }
 }
 
 /* Media query for small devices */
-@media (max-width: 950px) {
+@media (max-width: 768px) {
     .header-home {
-        height: 10rem;
-    }
+        clip-path: ellipse(100% 65% at 50% 50%);
+        height: 16rem;
+        background-position: bottom;
+        margin-bottom: 3rem;
 
-    .portada {
-        width: 100%;
-        height: 60%;
     }
 
     .home-tittle {
-        font-size: 1.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 90%;
+        font-size: 8.5vw;
     }
 
+    .btn-header {
+        left: 50%;
+        bottom: 12%;
+        transform: translateX(-50%);
+        text-align: center;
+        font-size: 3.4vw;
+        padding: 0.3rem;
+       
+    }
+
+    .btn-header:hover {
+        background: #ffe81e;
+        color: #0f1345;
+        transform: scale(1.05);
+        bottom: 12%;
+       
+    }
+
+    .contacto-page {
+        flex-direction: column;
+        margin-bottom: 0;
+      }
+      .contacto-imagen, 
+      .contacto-info {
+        flex: none;
+        height: 40vh;
+      }
+      .contacto-info p {
+        width: 75%;
+        margin: auto;
+        font-size: 1.5rem;
+        line-height: 1.2;
+      }
+      .btn-contact{
+        margin-bottom: 2rem;
+      }
+}
+
+/* Media query for big devices */
+@media screen and (min-width: 1720px) {
+    @media (min-width: 1920px) {
+        .header-home {
+            height: 35rem;
+            background-position: center;
+        }
+
+        .home-tittle {
+            font-size: 4.5vw;
+        }
+    }
 }

@@ -1,0 +1,299 @@
+.nosotros-tittle {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #0f1345;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 3px 3px 8px rgba(71, 215, 163, 0.7);
+    letter-spacing: 2px;
+    border-bottom: 4px solid #06cf6e;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+}
+
+.nosotros-tittle-dos {
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 3px 3px 8px rgba(212, 209, 30, 0.7);
+    letter-spacing: 2px;
+    border-bottom: 4px solid #ffe81e;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 1rem;
+}
+.nosotros-subtittle{
+  margin-top: 2rem ;
+  margin-left: 2rem;
+  font-size: 2rem;                        /* Más pequeño que el título (2.5rem) */
+  font-weight: 600;                       /* Menos pesado para diferenciar */
+  color: #0f1345;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 2px 2px 6px rgba(71, 215, 163, 0.5); /* Sombra un poco más sutil */
+  letter-spacing: 1.5px;                  /* Un poco menor que 2px */
+  border-top: 2px solid #06cf6e;           /* Cambio: borde superior en lugar de inferior */
+  display: inline-block;
+  padding-top: 10px 10px;
+
+}
+.nosotros-subtittle-dos{
+    margin-top: 2rem ;
+    margin-left: 2rem;
+    font-size: 2rem;                        /* Más pequeño que el título (2.5rem) */
+    font-weight: 600;                       /* Menos pesado para diferenciar */
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(71, 215, 163, 0.5); /* Sombra un poco más sutil */
+    letter-spacing: 1.5px;                  /* Un poco menor que 2px */
+    border-top: 2px solid #06cf6e;           /* Cambio: borde superior en lugar de inferior */
+    display: inline-block;
+    padding-top: 10px 10px;
+}
+/*------------------Header---------------------*/
+.header-nosotros {
+    clip-path: ellipse(100% 55% at 48% 44%);
+    width: 100%;
+    height: 25rem;
+}
+
+.img-portada-nosotros {
+    object-fit: contain;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+/*------------------sSobre Nosotros---------------------*/
+
+.page-nosotros {
+    background: #0f1345;
+    padding: 60px 20px;
+    max-width: 670px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px rgba(71, 215, 163, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.img-sobre-nosotros {
+    flex: 1 1 30%;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px rgba(71, 215, 163, 0.7);
+    transition: transform 0.3s ease;
+    
+}
+
+.img-sobre-nosotros:hover {
+    transform: scale(1.05);
+}
+
+.page-nosotros p, h2 {
+    flex: 1 1 65%;
+    max-width: 400px;
+    font-size: clamp(1.3rem, 2vw, 1.2rem);
+    line-height: 1.3;
+    color: #ffffff;
+    text-align: justify;
+    padding: 20px 20px;
+}
+
+/*----------------Mision Vision-----------------*/
+.mision-vision-container {
+    height: auto;
+}
+
+.mision-vision-page {
+    display: flex;
+    width: 100%;
+    text-align: left;
+}
+
+.mision-vision {
+    flex: 1;
+    overflow: hidden;
+    background-color: #ffe81e;
+    transition: transform 0.3s ease;
+    
+}
+.mision-vision:hover {
+    transform: scale(1.05);
+    
+}
+.mision-vision p{
+    color: #0f1345;
+    font-size: 1.6rem;
+    padding: 30px 50px;
+    text-align: justify;
+}
+
+.objetivos {
+    flex: 1;
+    overflow: hidden;
+    justify-content: center;
+    background: #0f1345;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+.objetivos:hover {
+    transform: scale(1.05);
+}
+
+.objetivos p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.list-group-objetivos{
+    max-width:900px;
+    font-size: 1.3rem;
+    color: #ffffff;
+    text-align: left;
+    border-bottom: 2px solid #06cf6e;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-bottom: 1.5rem;
+    margin-left: 5rem;
+}
+.list-group-objetivos i{
+    font-size: 2rem;
+    margin-right: 2rem;
+    text-shadow: 7px 3px 6px rgba(71, 215, 163, 0.5);
+}
+
+/* Media query for small devices */
+@media (max-width: 768px) {
+
+    /*----------Header-----------------*/
+    .header-nosotros {
+        clip-path: ellipse(100% 55% at 48% 44%);
+        height: auto;
+        margin-bottom: 3rem;
+    }
+
+    /*--------------Nosotros-----------------*/
+    .nosotros-tittle {
+        margin-left: 0;
+    }
+
+    .nosotros-tittle-dos {
+        margin: 1rem;
+    }
+    .nosotros-subtittle{
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .nosotros-subtittle-dos{
+        margin-left: 0;
+        margin-bottom: 0;
+
+    }
+
+    .img-portada-nosotros {
+        height: auto;
+        object-fit: contain;
+        position: relative;
+    }
+
+    .nosotros-content {
+        flex-direction: column;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .page-nosotros {
+        flex-direction: column;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .img-sobre-nosotros {
+        margin-left: 0;
+    }
+
+    .page-nosotros p, h1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .img-sobre-nosotros,
+    .page-nosotros p {
+        flex: unset;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .page-nosotros p, h1 {
+        text-align: center;
+    }
+
+    /*-----------------Mision Vision----------------------*/
+    .mision-vision-page {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .mision-vision{
+        transition: none;
+    }
+    .mision-vision:hover{
+        transform: none      ;
+    }
+    .mision-vision p{
+        text-align: center;
+        font-size: 1.1rem;
+        padding: 0px 18px;
+        transition: none;
+    }
+    .objetivos {
+        flex: none;
+        transition: none;
+    }
+    .objetivos:hover{
+        transform: none
+    }
+    .list-group-objetivos{
+        margin-left: 0;
+        font-size: 1rem;
+        padding: 0px 9px;
+    }
+
+}
+
+/* Media query for big devices */
+@media screen and (min-width: 1720px) {
+    @media (min-width: 1920px) {
+        .header-nosotros {
+            height: 30rem;
+            background-position: center;
+        }
+
+        .page-nosotros {
+            max-width: 1200px;
+            padding: 3rem;
+        }
+
+        .img-sobre-nosotros {
+            max-width: 280px;
+
+        }
+
+        .page-nosotros p, h2 {
+            max-width: 500px;
+        }
+
+    }
+}
