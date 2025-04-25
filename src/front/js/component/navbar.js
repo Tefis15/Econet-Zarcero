@@ -20,12 +20,12 @@ export const Navbar = () => {
 								<span className="nav-span">PLANES INTERNET</span>
 							</Link>
 						</li>
-						<li className="nav-link nav-item nav-menu">
+						{/* <li className="nav-link nav-item nav-menu">
 							<Link to="/planesInternetTV" className="nav-link text-decoration-none" >
 								<span className="nav-span">PLANES ECO-DÚO</span>
 							</Link>
 						</li>
-						
+						 */}
 						<li className="nav-link nav-item nav-menu">
 							<Link to="/sobreNosotros" className="nav-link text-decoration-none">
 								<span className="nav-span">SOBRE NOSOTROS</span>

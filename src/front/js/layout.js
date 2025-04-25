@@ -14,6 +14,9 @@ import { Footer } from "./component/footer";
 import { SobreNosotros } from "./pages/sobreNosotros";
 import { SolicitarInstalacion } from "./pages/solicitarInstalación";
 import { Contactenos } from "./pages/contactenos";
+import { TerminosYCondiciones } from "./pages/terminosycondiciones";
+import { NotFound } from "./pages/notFound";
+import { PoliticaPrivacidad } from "./pages/politicaPrivacidad";
 
 
 //create your first component
@@ -37,7 +40,9 @@ const Layout = () => {
                         <Route element={<SobreNosotros />} path="/sobreNosotros" />
                         <Route element={<SolicitarInstalacion />} path="/solicitarInstalacion" />
                         <Route element={<Contactenos />} path="/contactenos" />
-                        <Route element={<h1>Not found!</h1>} />
+                        <Route element={<TerminosYCondiciones />} path="/terminos-y-condiciones" />
+                        <Route element={<PoliticaPrivacidad />} path="/privacidad" />
+                        <Route element={<NotFound />} path="*" />
                     </Routes>
                     <Footer />
                 </ScrollToTop>

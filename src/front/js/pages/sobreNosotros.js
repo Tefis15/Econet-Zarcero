@@ -34,7 +34,7 @@ export const SobreNosotros = () => {
             <div className="page-nosotros">
               <img className="img-sobre-nosotros" src={stefany}></img>
               <div className="text-center">
-                <h2 className="nosotros-tittle-dos">Emprenderores Zarcerreños</h2>
+                <h2 className="nosotros-tittle-dos">Emprendedores Zarcereños</h2>
                 <p>Econet Zarcero nace con el propósito de brindar un servicio de internet
                   confiable y accesible para las comunidades de Zarcero, Naranjo y San Ramón.
                   Fundada por la <b>Ing. Stefany Méndez Salas</b>, una mujer emprendedora de la zona,
@@ -98,10 +98,31 @@ export const SobreNosotros = () => {
                 </ul>
               </div>
             </div>
-            
           </div>
-          <div className="container-sobre-nosotros mt-5">
-          <h1 className="nosotros-tittle">¿Por que elegir Econet Zarcero?</h1>
+          <div className="por-que-elegir text-center">
+            <h2 className="nosotros-tittle">¿Por qué elegir EcoNet?</h2>
+            <div className="pq-cards">
+              <div className="pq-card">
+                <i className="fa-solid fa-microchip pq-icon"></i>
+                <h3 className="pq-card-title">Tecnología de vanguardia</h3>
+                <p>Utilizamos equipos modernos para garantizar la mejor experiencia de conexión.</p>
+              </div>
+              <div className="pq-card">
+                <i className="fa-solid fa-headset pq-icon"></i>
+                <h3 className="pq-card-title">Atención personalizada</h3>
+                <p>Nuestro equipo está siempre listo para brindarte asesoría y solucionar tus dudas de manera rápida y eficaz.</p>
+              </div>
+              <div className="pq-card">
+                <i className="fa-solid fa-map-location-dot pq-icon"></i>
+                <h3 className="pq-card-title">Cobertura extensa</h3>
+                <p>Conectamos diversas zonas de Zarcero y sus alrededores, llevando el mejor internet a donde más lo necesitas.</p>
+              </div>
+              <div className="pq-card">
+              <i className="fa-solid fa-hand-holding-heart pq-icon"></i>
+                <h3 className="pq-card-title">Compromiso con la comunidad</h3>
+                <p>Creemos en la innovación y en la mejora continua para ofrecer un servicio que supere tus expectativas.</p>
+              </div>
+            </div>
           </div>
         </div>
 

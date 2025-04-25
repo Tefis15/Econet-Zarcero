@@ -14,12 +14,13 @@ export const Home = () => {
       <header className="header-home">
         <div className="titles-header d-flex justify-content-center">
           <img className="img-portada" src={portada}></img>
-          <div className="d-flex">
-            <h1 className="home-tittle">Donde la Red se une con la Naturaleza</h1>
+          <div className="hero-overlay">
+            <h1 className="home-tittle">Bienvenidos a EcoNet Zarcero</h1>
+            <p className="home-subtitle-header">Donde la red se une con la Naturaleza</p>
+          </div>
             <Link to="/solicitarInstalacion">
               <button type="button" className="btn-header">Solicitar Instalación</button>
             </Link>
-          </div>
         </div>
       </header>
       <div className="beneficios-container">
@@ -72,10 +73,10 @@ export const Home = () => {
               <i className="fa-solid fa-tv"></i>
             </div>
             <p className="servicio-tittle">Planes EcoDúo (Internet + TV)</p>
-            <p className="servicio-parrafo">Disfruta de lo mejor de ambos mundos: Internet de alta velocidad junto a TV digital con 162 canales. Todo en un solo plan para que tu entretenimiento y conexión nunca se detengan.</p>
-            <Link to="/planesInternetTV">
-              <button type="button" className="btn-principal">Planes de EcoDúo</button>
-            </Link>
+            <p className="servicio-parrafo">Disfrutarás de lo mejor de ambos mundos: Internet de alta velocidad junto a TV digital. Todo en un solo plan para que tu entretenimiento y conexión nunca se detengan.</p>
+         
+              <button type="button" className="btn-principal">Próximamente</button>
+           
           </div>
           <div className="servicio">
             <i className="i-servicio fa-solid fa-map-location-dot"></i>
@@ -95,6 +96,7 @@ export const Home = () => {
             <img src="https://images.pexels.com/photos/7709278/pexels-photo-7709278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagen de Contacto" />
           </div>
           <div className="contacto-info">
+            <h1></h1>
             <p>
               ¿Tienes dudas o necesitas más información? Visita nuestra página de contacto para enviarnos tu consulta y recibir una respuesta personalizada.
             </p>
