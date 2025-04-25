@@ -1,4 +1,5 @@
 .nosotros-tittle {
+    position: relative;
     font-size: 2.5rem;
     font-weight: 800;
     color: #0f1345;
@@ -6,11 +7,22 @@
     text-align: center;
     text-shadow: 3px 3px 8px rgba(71, 215, 163, 0.7);
     letter-spacing: 2px;
-    border-bottom: 4px solid #06cf6e;
     display: inline-block;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     margin-bottom: 3rem;
     margin-left: 5rem;
+
+}
+
+.nosotros-tittle::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #06cf6e, #ffe81e);
+    border-radius: 2px;
 }
 
 .nosotros-tittle-dos {
@@ -26,40 +38,43 @@
     padding-bottom: 5px;
     margin-bottom: 1rem;
 }
-.nosotros-subtittle{
-  margin-top: 2rem ;
-  margin-left: 2rem;
-  font-size: 2rem;                        /* Más pequeño que el título (2.5rem) */
-  font-weight: 600;                       /* Menos pesado para diferenciar */
-  color: #0f1345;
-  text-transform: uppercase;
-  text-align: center;
-  text-shadow: 2px 2px 6px rgba(71, 215, 163, 0.5); /* Sombra un poco más sutil */
-  letter-spacing: 1.5px;                  /* Un poco menor que 2px */
-  border-top: 2px solid #06cf6e;           /* Cambio: borde superior en lugar de inferior */
-  display: inline-block;
-  padding-top: 10px 10px;
+
+.nosotros-subtittle {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0f1345;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(71, 215, 163, 0.5);
+    letter-spacing: 1.5px;
+    border-top: 2px solid #06cf6e;
+    display: inline-block;
+    padding-top: 10px 10px;
 
 }
-.nosotros-subtittle-dos{
-    margin-top: 2rem ;
+
+.nosotros-subtittle-dos {
+    margin-top: 2rem;
     margin-left: 2rem;
-    font-size: 2rem;                        /* Más pequeño que el título (2.5rem) */
-    font-weight: 600;                       /* Menos pesado para diferenciar */
+    font-size: 2rem;
+    font-weight: 600;
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
-    text-shadow: 2px 2px 6px rgba(71, 215, 163, 0.5); /* Sombra un poco más sutil */
-    letter-spacing: 1.5px;                  /* Un poco menor que 2px */
-    border-top: 2px solid #06cf6e;           /* Cambio: borde superior en lugar de inferior */
+    text-shadow: 2px 2px 6px rgba(71, 215, 163, 0.5);
+    letter-spacing: 1.5px;
+    border-top: 2px solid #06cf6e;
     display: inline-block;
     padding-top: 10px 10px;
 }
+
 /*------------------Header---------------------*/
 .header-nosotros {
     clip-path: ellipse(100% 55% at 48% 44%);
     width: 100%;
-    height: 25rem;
+    height: 19rem;
 }
 
 .img-portada-nosotros {
@@ -95,14 +110,14 @@
     border-radius: 15px;
     box-shadow: 3px 3px 8px rgba(71, 215, 163, 0.7);
     transition: transform 0.3s ease;
-    
+
 }
 
 .img-sobre-nosotros:hover {
     transform: scale(1.05);
 }
 
-.page-nosotros p, h2 {
+.page-nosotros p {
     flex: 1 1 65%;
     max-width: 400px;
     font-size: clamp(1.3rem, 2vw, 1.2rem);
@@ -111,10 +126,20 @@
     text-align: justify;
     padding: 20px 20px;
 }
+.page-nosotros h2{
+    flex: 1 1 65%;
+    max-width: 400px;
+    font-size: clamp(1.3rem, 2vw, 1.2rem);
+    line-height: 1.3;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 20px;
+}
 
 /*----------------Mision Vision-----------------*/
 .mision-vision-container {
     height: auto;
+    margin-top: 6rem;
 }
 
 .mision-vision-page {
@@ -128,13 +153,15 @@
     overflow: hidden;
     background-color: #ffe81e;
     transition: transform 0.3s ease;
-    
+
 }
+
 .mision-vision:hover {
-    transform: scale(1.05);
-    
+    transform: scale(1.01);
+
 }
-.mision-vision p{
+
+.mision-vision p {
     color: #0f1345;
     font-size: 1.6rem;
     padding: 30px 50px;
@@ -149,8 +176,9 @@
     color: #fff;
     transition: transform 0.3s ease;
 }
+
 .objetivos:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
 
 .objetivos p {
@@ -158,8 +186,8 @@
     line-height: 1.5;
 }
 
-.list-group-objetivos{
-    max-width:900px;
+.list-group-objetivos {
+    max-width: 900px;
     font-size: 1.3rem;
     color: #ffffff;
     text-align: left;
@@ -169,10 +197,71 @@
     margin-bottom: 1.5rem;
     margin-left: 5rem;
 }
-.list-group-objetivos i{
+
+.list-group-objetivos i {
     font-size: 2rem;
     margin-right: 2rem;
     text-shadow: 7px 3px 6px rgba(71, 215, 163, 0.5);
+}
+
+/*----------------Por que elegir Econet---------------------*/
+.por-que-elegir {
+    padding: 60px 20px;
+    background: #f4f4f4;
+    text-align: left;
+}
+
+.pq-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #0f1345;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.pq-cards {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.pq-card {
+    background: #ffffff;
+    border: 2px solid #06cf6e;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pq-card:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 15px rgba(71, 215, 163, 0.5);
+}
+
+.pq-icon {
+    font-size: 2.5rem;
+    color: #ffe81e;
+    margin-bottom: 15px;
+}
+
+.pq-card-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #0f1345;
+    margin-bottom: 10px;
+}
+
+.pq-card p {
+    font-size: 1.1rem;
+    color: #0f1345;
+    line-height: 1.6;
 }
 
 /* Media query for small devices */
@@ -193,11 +282,13 @@
     .nosotros-tittle-dos {
         margin: 1rem;
     }
-    .nosotros-subtittle{
+
+    .nosotros-subtittle {
         margin-left: 0;
         margin-bottom: 0;
     }
-    .nosotros-subtittle-dos{
+
+    .nosotros-subtittle-dos {
         margin-left: 0;
         margin-bottom: 0;
 
@@ -225,7 +316,7 @@
         margin-left: 0;
     }
 
-    .page-nosotros p, h1 {
+    .page-nosotros p, .page-nosotros h1 {
         padding: 0;
         margin: 0;
     }
@@ -237,7 +328,7 @@
         font-size: 1rem;
     }
 
-    .page-nosotros p, h1 {
+    .page-nosotros p, .page-nosotros h1 {
         text-align: center;
     }
 
@@ -246,31 +337,45 @@
         flex-direction: column;
         margin-bottom: 0;
     }
-    .mision-vision{
+
+    .mision-vision {
         transition: none;
     }
-    .mision-vision:hover{
-        transform: none      ;
+
+    .mision-vision:hover {
+        transform: none;
     }
-    .mision-vision p{
+
+    .mision-vision p {
         text-align: center;
         font-size: 1.1rem;
         padding: 0px 18px;
         transition: none;
     }
+
     .objetivos {
         flex: none;
         transition: none;
     }
-    .objetivos:hover{
+
+    .objetivos:hover {
         transform: none
     }
-    .list-group-objetivos{
+
+    .list-group-objetivos {
         margin-left: 0;
         font-size: 1rem;
         padding: 0px 9px;
     }
 
+    .pq-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pq-card {
+        max-width: 90%;
+    }
 }
 
 /* Media query for big devices */
@@ -291,7 +396,7 @@
 
         }
 
-        .page-nosotros p, h2 {
+        .page-nosotros p, .page-nosotros h2 {
             max-width: 500px;
         }
 

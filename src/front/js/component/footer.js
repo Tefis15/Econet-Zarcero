@@ -16,17 +16,20 @@ export const Footer = () => (
 				<Link to="/planesInternet">
 					<p>Planes de Internet</p>
 				</Link>
-				<Link to="/planesInternet">
+				{/* <Link to="/planesInternetTV">
 					<p>Planes de EcoDúo</p>
-				</Link>
-				<Link to="/planesInternet">
+				</Link> */}
+				<Link to="/cobertura">
 					<p>Mapa de Cobertura</p>
 				</Link>
-				<Link to="/planesInternet">
+				<Link to="/solicitarInstalacion">
 					<p>Solicitar Instalación</p>
 				</Link>
-				<Link to="/planesInternet">
+				<Link to="/terminos-y-condiciones">
 					<p>Términos y Condiciones</p>
+				</Link>
+				<Link to="/privacidad">
+					<p>Política de Privacidad</p>
 				</Link>
 			</div>
 			<div className="info-footer">
@@ -64,14 +67,12 @@ export const Footer = () => (
 					</a>
 				</div>
 				<div className="medios-footer d-flex align-items-center justify-content-start">
-						<i className="fa-solid fa-envelope"></i>
-					<a href="">
+						<i className="fa-solid fa-envelope"></i>	
 						<p className="ms-2">econetzarcero@gmail.com</p>
-					</a>
 				</div>
 				<div className="medios-footer d-flex align-items-center justify-content-start">
 						<i className="fa-solid fa-map-pin"></i>
-					<a to= "https://maps.app.goo.gl/HsQw2KM4vnu9YZJx6">
+					<a href= "https://maps.app.goo.gl/HsQw2KM4vnu9YZJx6">
 						<p className="ms-2">50 metros norte de Coocique, Alajuela, Zarcero</p>
 					</a>
 				</div>

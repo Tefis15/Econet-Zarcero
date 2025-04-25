@@ -1,0 +1,396 @@
+.planes-internet-tittle {
+    font-size: 2.1rem;
+    position: relative;
+    font-weight: 800;
+    color: #0f1345;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 3px 3px 8px rgba(71, 215, 163, 0.7);
+    letter-spacing: 2px;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-top: 3rem;
+}
+
+.planes-internet-tittle::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #06cf6e, #ffe81e);
+    border-radius: 2px;
+}
+
+.planes-internet-subtittle {
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #0f1345;
+    text-transform: uppercase;
+    text-align: left;
+    text-shadow: 2px 2px 6px rgba(71, 215, 163, 0.5);
+    letter-spacing: 1.5px;
+    padding-top: 10px 10px;
+}
+
+/*------------Header----------------*/
+.header-planes-internet-page {
+    display: flex;
+
+    width: 100%;
+}
+
+.header-planes-internet-imagen {
+    flex: 1;
+    overflow: hidden;
+}
+
+.header-planes-internet-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-planes-internet-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.header-planes-internet-info h1, .header-planes-internet-info h2 {
+    margin-right: auto;
+    text-align: left;
+    max-width: 750px;
+}
+
+.header-planes-internet-info p {
+    color: #0f1345;
+    font-size: 1.3rem;
+}
+
+.list-group-header-planes-internet {
+    max-width: 900px;
+    font-size: 1.3rem;
+    color: #0f1345;
+    text-align: left;
+    border-bottom: 2px solid #06cf6e;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-bottom: 0.5rem;
+    margin-left: 5rem;
+}
+
+.list-group-header-planes-internet i {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+    text-shadow: 7px 3px 6px rgba(71, 215, 163, 0.5);
+}
+
+.span-subtittle-header¿-planes-internet {
+    font-weight: 700;
+}
+
+.parrafo-header-planes-internet {
+    margin-right: auto;
+    margin-left: 3rem;
+}
+
+.btn-header-planes-internet {
+    background: #06cf6e;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px 10px rgba(71, 215, 163, 0.5);
+    margin-right: auto;
+}
+
+.btn-header-planes-internet:hover {
+    background: #ffe81e;
+    color: #fff;
+    transform: scale(1.05);
+    color: #0f1345;
+}
+
+
+.planes-intro-desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    color: #0f1345;
+    line-height: 1.6;
+    max-width: 1400px;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.paquetes-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+
+
+.card-paquete {
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 300px;
+    padding: 2rem 1.5rem 1.5rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.075);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card-paquete::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #06cf6e, #ffe81e);
+}
+
+.card-paquete:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 30px rgba(18, 196, 2, 0.363);
+}
+
+.badge-megas {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: #06cf6e;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 0.3rem 0.8rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    animation: pulse 2s infinite ease-in-out;
+}
+
+
+.card-paquete-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #0f1345;
+    font-weight: 800;
+    margin-top: 3.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-paquete-desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color: #0f1345;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+/* Precio destacado */
+.card-precio {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #06cf6e;
+    margin: 0.5rem 0 1.5rem;
+    text-align: center;
+}
+
+.card-precio-periodo {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0f1345;
+}
+
+.card-includes {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.7rem;
+    color: #555;
+    margin: 0 0 1.5rem;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.card-paquete-link {
+    display: inline-block;
+    background: #06cf6e;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.card-paquete-link:hover {
+    background: #ffe81e;
+    color: #fff;
+    transform: scale(1.05);
+    color: #0f1345;
+}
+
+.div-img-antena-planes-internet {
+    background-image: url('https://www.aratours.com/images/blog/2018/Zarcero/Zarcero-Iglesia-2-min.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    clip-path: ellipse(100% 55% at 48% 44%);
+    margin-top: 3rem;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 1rem;
+}
+
+.faq-container h1 {
+    margin-bottom: 3rem;
+}
+
+.accordion {
+    justify-content: center;
+}
+
+.accordion-button {
+    background-color: #06cf6e;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s;
+    font-size: 1.1rem;
+    border-radius: 2px;
+
+}
+
+.accordion-button:hover {
+    background-color: #ffe81e;
+    color: #0f1345;
+}
+
+.accordion-button.custom-accordion-btn:not(.collapsed) {
+    background: linear-gradient(90deg, #06cf6e, #ffe81e);
+    color: #0f1345;
+    box-shadow: 0 4px 12px rgba(6, 207, 110, 0.3);
+}
+.accordion-body{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0f1345;
+}
+.preguntas-frecuentes{
+        font-size: 1.3rem;
+        margin-right: 0.5rem;
+        text-shadow: 7px 3px 6px rgba(71, 215, 163, 0.5);
+        margin-bottom: 1rem;   
+}
+.preguntas-frecuentes span{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0f1345;
+}
+
+
+/* Media query for small devices */
+@media (max-width: 768px) {
+    .header-planes-internet-imagen {
+        display: none;
+    }
+
+    .header-planes-internet-info {
+        padding-top: 0;
+    }
+
+    .header-planes-internet-info h1 {
+        text-align: center;
+
+        font-size: 1.7rem;
+    }
+
+    .header-planes-internet-info h2 {
+        margin-top: 1rem;
+        text-align: left;
+        font-size: 1.4rem;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .header-planes-internet-info p {
+        color: #0f1345;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .list-group-header-planes-internet {
+        margin-left: 0;
+        font-size: 1rem;
+        padding: 0px 9px;
+    }
+
+    .list-group-header-planes-internet i {
+        font-size: 1.4rem;
+    }
+
+    .parrafo-header-planes-internet {
+        margin: 0;
+        margin-right: auto;
+        margin-bottom: 1rem;
+    }
+
+    .planes-intro-desc {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .paquetes-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 15px rgba(6, 207, 110, 0.6), 0 0 20px rgba(255, 232, 30, 0.5);
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(6, 207, 110, 0.8), 0 0 30px rgba(255, 232, 30, 0.7);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 15px rgba(6, 207, 110, 0.6), 0 0 20px rgba(255, 232, 30, 0.5);
+    }
+}

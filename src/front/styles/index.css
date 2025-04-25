@@ -128,7 +128,8 @@
   text-decoration: underline;
   color: #06cf6e;
 }
-.medios-footer p:hover{
+
+.medios-footer p:hover {
   color: #06cf6e;
 }
 
@@ -137,11 +138,12 @@
   height: auto;
   margin-left: 25%;
 }
-.medios-footer p{
+
+.medios-footer p {
   font-size: 1.4rem;
 }
 
-.medios-footer i{
+.medios-footer i {
   font-size: 1.5rem;
 }
 
@@ -156,7 +158,7 @@
     height: auto;
   }
 
-  .logo-footer-container{
+  .logo-footer-container {
     margin: auto;
   }
 
@@ -170,11 +172,11 @@
     margin-left: 25%;
   }
 
-  .medios-footer p{
+  .medios-footer p {
     font-size: 1rem;
   }
-  
-  .medios-footer i{
+
+  .medios-footer i {
     font-size: 1.2rem;
   }
 
