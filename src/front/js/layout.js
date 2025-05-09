@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 import { BackendURL } from "./component/backendURL";
 
@@ -29,7 +29,7 @@ const Layout = () => {
 
     return (
         <div>
-            <BrowserRouter basename={basename}>
+            <HashRouter basename={basename}>
                 <ScrollToTop>
                     <Navbar />
                     <Routes>
@@ -46,7 +46,7 @@ const Layout = () => {
                     </Routes>
                     <Footer />
                 </ScrollToTop>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     );
 };
