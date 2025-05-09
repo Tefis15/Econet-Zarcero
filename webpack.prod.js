@@ -14,10 +14,5 @@ module.exports = merge(common, {
             safe: true,
             systemvars: true,
         }),
-        new CopyPlugin({
-            patterns: [
-                { from: 'public', to: '.' } // ← Esto copia el contenido de /public a /dist
-            ],
-        }),
     ]
 });
