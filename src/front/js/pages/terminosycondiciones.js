@@ -91,10 +91,10 @@ export const TerminosYCondiciones = () => {
           <div className="account-cards">
             <div className="account-card">
               <h3>Davienda</h3>
-              <p><strong>Colones:</strong> IBAN_COLONES_1</p>
-              <p><strong>Dólares:</strong> IBAN_DOLARES_1</p>
+              <p><strong>Colones:</strong> CR84010407642607727510</p>
+              <p><strong>Dólares:</strong> CR82010407642607728225</p>
             </div>
-            <div className="account-card">
+            {/* <div className="account-card">
               <h3>Banco de Costa Rica</h3>
               <p><strong>Colones:</strong> IBAN_COLONES_2</p>
               <p><strong>Dólares:</strong> IBAN_DOLARES_2</p>
@@ -103,7 +103,7 @@ export const TerminosYCondiciones = () => {
               <h3>BAC San José SA</h3>
               <p><strong>Colones:</strong> IBAN_COLONES_3</p>
               <p><strong>Dólares:</strong> IBAN_DOLARES_3</p>
-            </div>
+            </div> */}
           </div>
 
           <p>SINPE MÓVIL: Al 8747-1657 a nombre de EcoNet Zarcero SRL</p>
