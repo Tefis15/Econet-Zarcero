@@ -41,7 +41,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
         favicon: 'econet-logo.ico',
-        template: 'template.html'
+        template: 'template.html',
+        filename: 'index.html'
     }),
     new Dotenv({ safe: true, systemvars: true })
   ]
