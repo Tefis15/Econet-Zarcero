@@ -88,8 +88,7 @@ export const Footer = () => (
 
 		</div>
 		<p>
-			Made with <i className="fa fa-heart text-danger " /> by{" "}
-			<a href="http://www.4geeksacademy.com">Stefany Méndez Salas</a>
+			 © 2025 EcoNet Zarcero SRL. Diseñado por la Ing. <strong>Stefany Méndez Salas</strong>
 		</p>
 	</footer>
 );
