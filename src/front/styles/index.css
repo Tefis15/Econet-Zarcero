@@ -133,11 +133,31 @@
   color: #06cf6e;
 }
 
-.pyme-footer {
-  width: 70px;
-  height: auto;
-  margin-left: 25%;
+.pyme-container {
+  background: #ffffff;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.288);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  align-self: center;
+  padding-bottom: 15px;
 }
+
+.pyme-container:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 15px rgba(71, 215, 163, 0.5);
+}
+
+.pyme-container p {
+  margin: -1rem;
+  font-size: 1rem;
+}
+
+.pyme-footer {
+  width: 110px;
+  height: auto;
+}
+
 
 .medios-footer p {
   font-size: 1.4rem;
@@ -167,9 +187,9 @@
   }
 
   .pyme-footer {
-    width: 60px;
+    width: 1in;
     height: auto;
-    margin-left: 25%;
+
   }
 
   .medios-footer p {

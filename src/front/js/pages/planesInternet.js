@@ -49,9 +49,10 @@ export const PlanesInternet = () => {
 
                         <h2 className="planes-internet-subtittle">¡Es tu turno de volar alto!</h2>
                         <p className="parrafo-header-planes-internet">¡Solicitá tu plan ahora!</p>
-                        <Link to="/contactenos">
+                        <a href="https://wa.me/50687471656?text=¡Hola!%20Quiero%20contratar%20un%20plan%20de%20Internet.%20%F0%9F%8C%90" 
+                        target="black">
                             <button className=" btn-header-planes-internet"> <i className="fa-brands fa-whatsapp fs-3"></i> Whatsapp</button>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>

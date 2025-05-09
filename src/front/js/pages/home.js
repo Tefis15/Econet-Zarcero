@@ -18,9 +18,9 @@ export const Home = () => {
             <h1 className="home-tittle">Bienvenidos a EcoNet Zarcero</h1>
             <p className="home-subtitle-header">Donde la red se une con la Naturaleza</p>
           </div>
-            <Link to="/solicitarInstalacion">
+            {/* <Link to="/solicitarInstalacion">
               <button type="button" className="btn-header">Solicitar Instalación</button>
-            </Link>
+            </Link> */}
         </div>
       </header>
       <div className="beneficios-container">
@@ -89,7 +89,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="contactenos-home-container text-center">
+      {/* <div className="contactenos-home-container text-center">
         <h1 className="tittles-home">Contáctenos</h1>
         <div className="contacto-page">
           <div className="contacto-imagen">
@@ -105,7 +105,7 @@ export const Home = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
