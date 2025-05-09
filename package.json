@@ -37,6 +37,7 @@
 		"babel-loader": "^8.2.3",
 		"babel-plugin-transform-class-properties": "^6.10.2",
 		"bc-console": "0.0.2",
+		"copy-webpack-plugin": "^13.0.0",
 		"css-loader": "^6.5.1",
 		"dotenv-webpack": "^7.0.3",
 		"envfile": "^6.17.0",
@@ -73,6 +74,7 @@
 		]
 	},
 	"dependencies": {
+		"@microsoft/clarity": "^1.0.0",
 		"bootstrap": "^5.3.3",
 		"prop-types": "^15.6.1",
 		"react": "^16.8.4",
