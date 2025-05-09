@@ -353,8 +353,9 @@
     .list-group-header-planes-internet {
         margin-left: 0;
         font-size: 1rem;
-        padding: 0px 9px;
+        padding: 8px 9px;
     }
+
 
     .list-group-header-planes-internet i {
         font-size: 1.4rem;
@@ -374,6 +375,7 @@
     .paquetes-grid {
         flex-direction: column;
         align-items: center;
+        padding: 0;
     }
     
 }
