@@ -30,7 +30,7 @@ const Layout = () => {
     return (
         <div>
             <HashRouter basename={basename}>
-                <ScrollToTop>
+                <ScrollToTop/>
                     <Navbar />
                     <Routes>
                         <Route element={<Home />} path="/" />
@@ -45,7 +45,7 @@ const Layout = () => {
                         <Route element={<NotFound />} path="*" />
                     </Routes>
                     <Footer />
-                </ScrollToTop>
+                
             </HashRouter>
         </div>
     );
