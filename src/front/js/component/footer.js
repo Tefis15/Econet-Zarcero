@@ -61,13 +61,21 @@ export const Footer = () => (
 				<div className="medios-footer d-flex align-items-center justify-content-start">
 					<i className="fa-solid fa-phone-volume"></i>
 					<a href="tel:87471656">
-						<p className="ms-2">(+506) 8747-1656</p>
+						<p className="ms-2">8747-1656</p>
+					</a>
+					<span className="ms-2"><b>/</b></span>
+					<a href="tel:22015367">
+						<p className="ms-2">2201-5367</p>
+					</a>
+					<span className="ms-2"><b>/</b></span>
+					<a href="tel:22015341">
+						<p className="ms-2">2201-5341</p>
 					</a>
 				</div>
 				<div className="medios-footer d-flex align-items-center justify-content-start">
 					<i className="fa-solid fa-phone-volume"></i>
-					<a href="" target="black">
-						<p className="ms-2">800-ECONET</p>
+					<a href="tel:80032663827">
+						<p className="ms-2">800-ECONETCR</p>
 					</a>
 				</div>
 				<div className="medios-footer d-flex align-items-center justify-content-start">

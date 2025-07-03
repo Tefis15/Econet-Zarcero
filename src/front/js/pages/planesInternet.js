@@ -171,7 +171,7 @@ export const PlanesInternet = () => {
                         <div id="collapseEight" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
                             Claro que sí. Contamos con <strong> soporte técnico local y personalizado</strong>, de lunes a sábado. Siempre estamos listos para ayudarte lo más rápido posible.
-                            </div>ochonueve
+                            </div>
                         </div>
                     </div>
                     <div className="accordion-item">
