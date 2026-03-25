@@ -220,7 +220,7 @@ export const TerminosYCondiciones = () => {
             derecho del usuario final.
           </p>
           <p>En los casos que el usuario final solicite una ampliación o modificación de las condiciones contractuales previamente suscritas, el operador/proveedor
-            debe registrar el consentimiento del usuario final. Para lo anterior, el operador/proveedor deberá indicar en el sitio web www.pronetcr.com y los canales de
+            debe registrar el consentimiento del usuario final. Para lo anterior, el operador/proveedor deberá indicar en el sitio web www.econetzarcero.com y los canales de
             atención en que puede realizar dicha solicitud.</p>
 
           <h2>Gestión de Reclamaciones y Atención al Usuario</h2>
