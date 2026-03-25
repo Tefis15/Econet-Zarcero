@@ -10,43 +10,45 @@ export const Cobertura = () => {
     return (
         <div className="container-map">
 
-            <div class="coverage-hero">
+            <div className="coverage-hero">
                 <div className="coverage-title">
-                    <h1 class="coverage-hero-title">Nuestra Cobertura</h1>
-                    <p class="coverage-hero-subtitle">
+                    <h1 className="coverage-hero-title">Mapas de Alcance de Red</h1>
+                    <p className="coverage-hero-subtitle">
                         Llevamos internet de alta velocidad a tu comunidad… ¡y seguimos creciendo!
                     </p>
                     <Link to="/contactenos">
-                        <button className="btn-coverage"> <i className="fa-brands fa-whatsapp fs-3"></i> Consultar Cobertura</button>
+                        <button className="btn-coverage"> <i className="fa-brands fa-whatsapp fs-3"></i> Consultar Alcance de Red</button>
                     </Link>
                 </div>
 
-                <div class="coverage-timeline">
-
-                    <div class="timeline-line"></div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-icon">Z</div>
-                        <div class="timeline-content">
-                            <h4>Zarcero</h4>
-                            <p>Zarcero Centro, Laguna, Tapezco, Pueblo Nuevo, Palmira, Guadalupe, San Luis, Los Ángeles, La Brisa, La Legua y Zapote.</p>
+                <div>
+                    <h1 className="coverage-hero-title mb-2" >Alajuela</h1>
+                    <div className="coverage-timeline">
+                        <div className="timeline-line"></div>
+                        <div className="timeline-item">
+                            <div className="timeline-icon">Z</div>
+                            <div className="timeline-content">
+                                <h4>Zarcero</h4>
+                                <p>Zarcero Centro, Laguna, Tapezco, Pueblo Nuevo, Palmira, Guadalupe, San Luis, Los Ángeles, La Brisa, La Legua y Zapote.</p>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="timeline-item">
-                        <div class="timeline-icon">N</div>
-                        <div class="timeline-content">
-                            <h4>Naranjo</h4>
-                            <p>La Palmita y La Tocha</p>
+                        <div className="timeline-item">
+                            <div className="timeline-icon">N</div>
+                            <div className="timeline-content">
+                                <h4>Naranjo</h4>
+                                <p>San José -sector La Palmita- y San Juan -sector La Tocha-</p>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="timeline-item">
-                        <div class="timeline-icon">S</div>
-                        <div class="timeline-content">
-                            <h4>San Ramón</h4>
-                            <p>Próximamente</p>
+                        <div className="timeline-item">
+                            <div className="timeline-icon">S</div>
+                            <div className="timeline-content">
+                                <h4>San Ramón</h4>
+                                <p>Próximamente</p>
+                            </div>
                         </div>
+                        <p className="coverage-hero-subtitle">La disponibilidad definitiva del servicio está sujeta a factibilidad técnica en el punto de instalación solicitado dentro de las zonas de alcance de red indicadas.</p>
                     </div>
                 </div>
             </div>
@@ -54,7 +56,6 @@ export const Cobertura = () => {
             <div className="map-container">
                 <iframe
                     src="https://www.google.com/maps/d/u/0/embed?mid=1twgUP4R6-dllrH12MExo5EhbO0nH-Ew&ehbc=2E312F"
-                    
                 ></iframe>
             </div>
 

@@ -20,7 +20,7 @@ export const Footer = () => (
 					<p>Planes de EcoDúo</p>
 				</Link> */}
 				<Link to="/cobertura">
-					<p>Mapa de Cobertura</p>
+					<p>Mapas de Alcance de Red</p>
 				</Link>
 				<Link to="/sobreNosotros">
 					<p>Sobre Nosotros</p>

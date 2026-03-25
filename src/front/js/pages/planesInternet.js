@@ -69,6 +69,12 @@ export const PlanesInternet = () => {
                     <CardPlanesInternet megas={60}  titulo={"Plan Pro"} descripcion= "Streaming 4K y videoconferencias avanzadas" precio={"22,990"}></CardPlanesInternet>
                     <CardPlanesInternet megas={75}  titulo={"Plan Premium"} descripcion= "Máxima velocidad para uso intensivo y empresas." precio={"25,990"}></CardPlanesInternet>
                 </div>
+
+                <p className="planes-intro-desc">
+                    El equipo terminal se entrega bajo la figura de alquiler, cuyo costo se encuentra totalmente incluido en el precio mensual del plan (₡1 500 IVAI). 
+                    La entrega se realiza mediante instalación técnica en el domicilio del abonado.
+                </p>
+                
             </div>
             <div className="div-img-antena-planes-internet"></div>
             <div className="faq-container">
@@ -120,7 +126,8 @@ export const PlanesInternet = () => {
                         </h2>
                         <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                            La mayoría de nuestras instalaciones se realizan en menos de 48 horas después de confirmar la disponibilidad y agendar la visita. ¡Rápido y sin complicaciones!
+                            Nuestro plazo oficial para la instalación y activación del servicio es de <b>4 días hábiles</b>, una vez confirmada la factibilidad técnica y 
+                            agendada la visita. ¡Trabajamos para conectar su hogar de forma eficiente y segura!
                             </div>
                         </div>
                     </div>
@@ -146,7 +153,7 @@ export const PlanesInternet = () => {
                         </h2>
                         <div id="collapseSix" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                            Todos nuestros planes incluyen instalación básica, equipo inalámbrico, mantenimiento preventivo y soporte técnico local.
+                            Todos nuestros planes incluyen instalación gratis, equipo inalámbrico, mantenimiento preventivo y soporte técnico local.
                             </div>
                         </div>
                     </div>

@@ -16,10 +16,14 @@ export const PoliticaPrivacidad = () => {
 
             <section className="privacy-container">
                 <article className="privacy-section">
+                    <p><b>Esta Política de Privacidad se aplica exclusivamente al uso y captura de datos a través de este sitio web. No regula la prestación de los 
+                        servicios de telecomunicaciones, los cuales se rigen por el contrato de adhesión y la legislación específica vigente, garantizando el secreto 
+                        de las comunicaciones.</b></p>
                     <h2>1. Introducción</h2>
                     <p>
-                        En EcoNet Zarcero SRL, tratamos tus datos personales con la máxima confidencialidad y respeto.
-                        Esta Política de Privacidad explica qué información recopilamos, cómo la usamos y tus derechos.
+                       En EcoNet Zarcero SRL, tratamos tus datos personales con la máxima confidencialidad. Es importante aclarar que esta política es aplicable 
+                       únicamente en relación con el uso de este sitio Web y no regula la prestación del servicio de telecomunicaciones, el cual se rige por la Ley 
+                       General de Telecomunicaciones y su contrato de adhesión, protegiendo sus derechos como usuario final.
                     </p>
                 </article>
 
@@ -27,7 +31,7 @@ export const PoliticaPrivacidad = () => {
                     <h2>2. Datos que Recopilamos</h2>
                     <ul>
                         <li><strong>Información de contacto:</strong> nombre, correo electrónico, teléfono.</li>
-                        <li><strong>Datos de ubicación:</strong> para ofrecer cobertura y servicios personalizados.</li>
+                        <li><strong>Datos de ubicación:</strong> para ofrecer información sobre el alcance de red y servicios personalizados.</li>
                         <li><strong>Información de uso:</strong> interacciones en el sitio, páginas vistas y duración de la sesión.</li>
                         <li><strong>Archivos subidos:</strong> cédula, documentos y formularios.</li>
                     </ul>
@@ -36,18 +40,18 @@ export const PoliticaPrivacidad = () => {
                 <article className="privacy-section">
                     <h2>3. Uso de la Información</h2>
                     <ul>
-                        <li>Proveer y mejorar nuestros servicios de Internet inalámbrico.</li>
-                        <li>Gestionar solicitudes de instalación y atención al cliente.</li>
-                        <li>Enviar comunicaciones y notificaciones relevantes.</li>
-                        <li>Analizar la interacción del usuario con MS Clarity para optimizar la experiencia.</li>
+                        <li>Gestionar las solicitudes de información y contacto realizadas a través del sitio web.</li>
+                        <li>Mejorar la experiencia de navegación y funcionalidades de nuestra plataforma digital.</li>
+                        <li>Enviar comunicaciones y notificaciones relacionadas con su solicitud de alcance de red.</li>
                     </ul>
                 </article>
 
                 <article className="privacy-section">
-                    <h2>4. Cookies y Tecnologías Similares</h2>
+                    <h2>4. Herramientas de Análisis y Cookies</h2>
                     <p>
-                        Utilizamos cookies propias y de terceros (Google Analytics, MS Clarity) para recopilar datos de uso.
-                        Puedes gestionar tus preferencias desde la configuración de tu navegador.
+                        Este sitio utiliza <b>Microsoft Clarity</b> para comprender cómo interactúan los usuarios con nuestra web. Clarity recopila datos de comportamiento 
+                        (clics, desplazamientos y duración de la visita) mediante cookies. Esta información es anónima y se utiliza únicamente con fines 
+                        estadísticos y de mejora de la experiencia del usuario.
                     </p>
                 </article>
 
@@ -83,7 +87,8 @@ export const PoliticaPrivacidad = () => {
                 <article className="privacy-section">
                     <h2>8. Conservación de Datos</h2>
                     <p>
-                        Conservamos tu información mientras exista la relación contractual y durante los plazos legales.
+                        Conservamos la información recopilada a través de este sitio web (como consultas en formularios o datos de navegación) 
+                        únicamente por el tiempo necesario para atender su solicitud o durante los plazos legales aplicables a la gestión de plataformas digitales.
                     </p>
                 </article>
 
