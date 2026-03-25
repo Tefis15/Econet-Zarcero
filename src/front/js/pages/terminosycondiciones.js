@@ -44,29 +44,37 @@ export const TerminosYCondiciones = () => {
             <li>Reconexión de servicio: ₡8,000 IVAI, incluye traslado de equipo técnico para la reconexión.</li>
             <li>Solo se cobrará uno de los dos costos anteriores, según aplique.</li>
             <li>Visitas técnicas no justificadas: ₡18,000 IVAI en segunda visita, cargado a la próxima factura.</li>
-            <li>Alquiler de router WiFi y antena: ₡1,500/mes más IVA, incluido en el precio final.</li>
+            <li>Alquiler de equipo terminal: ₡1,500/mes más IVA, incluido en el precio final.</li>
             <li>Los precios publicados incluyen IVA y cargos regulatorios.</li>
             <li>Pago mensual según plan contratado.</li>
             <li>Instalación gratis.</li>
             <li>Sin depósito de garantía.</li>
-            <li>Tarifas sujetas a revisión semestral.</li>
           </ul>
 
-          <h2>Privacidad y Protección de Datos</h2>
-          <p>
-            La información personal recopilada será tratada conforme a nuestra <a href="/privacidad" className="terms-link">Política de Privacidad</a>.
-            <br /><br />
-            Este sitio utiliza <strong>Microsoft Clarity</strong> para comprender cómo interactúan los usuarios con nuestro sitio web. Clarity recopila datos de comportamiento como clics, desplazamientos y duración de la visita, mediante cookies y tecnologías similares. Esta información se utiliza únicamente con fines estadísticos y de mejora de la experiencia del usuario.
-            <br /><br />
-            Los datos recolectados son anónimos, no incluyen información personal identificable y son tratados conforme a lo establecido por Microsoft en su <a href="https://privacy.microsoft.com/es-es/privacystatement" className="terms-link" target="_blank" rel="noopener noreferrer">política de privacidad</a>. Al continuar navegando en nuestro sitio, usted acepta este tratamiento.
-          </p>
-
           <h2>Sobre la Extinción del Contrato</h2>
-          <p>Al finalizar la relación comercial, el usuario debe permitir el acceso a nuestro personal para recuperar los equipos propiedad de EcoNet Zarcero SRL; 
-            según lo dispuesto en el CARATULA DEL CONTRATO</p>
+          <p>Ante la terminación de la relación comercial, sin importar el motivo, el usuario final tiene la obligación de devolver el equipo terminal propiedad de 
+            EcoNet Zarcero. Para su comodidad, ofrecemos las siguientes opciones:</p>
+            <ul className="list-group-numbered">
+              <li>
+                <b>Retiro en Domicilio:</b> El operador visitará el domicilio del usuario final para recuperar los equipos sin costo alguno. El usuario debe 
+                facilitar el acceso al personal técnico para este fin.
+              </li>
+              <li>
+                <b>Entrega Presencial:</b>El usuario final puede entregar los equipos personalmente en nuestras oficinas.
+              </li>
+              <li>
+                <b>Tercero Autorizado:</b> Un tercero debidamente autorizado por escrito por el titular también podrá realizar la entrega física de los equipos.
+              </li>
+            </ul>
+            <p><b>Dirección de entrega:</b> 50 metros norte de Coocique, Zarcero, Alajuela.<br></br>
+            <b>Horario:</b> Lunes a viernes de 10:00 am a 5:00 pm.<br></br>
+            <b>Plazo:</b> La devolución o retiro debe gestionarse en un plazo no mayor a treinta (30) días calendario tras la terminación del contrato.</p>
 
           <h2>Costo de Reposición de Equipos</h2>
+
           <div className="table-wrapper">
+            <p>El costo por reposición de equipos cuando el usuario final no devuelve el equipo terminal es de <b>₡75 000</b> (IVAI).</p>
+            {/*
             <table>
               <thead>
                 <tr>
@@ -82,7 +90,7 @@ export const TerminosYCondiciones = () => {
                 <tr><td>Mikrotik</td><td>Disc Lite 5</td><td>52,000</td></tr>
                 <tr><td>Mikrotik</td><td>LHG 5</td><td>62,000</td></tr>
               </tbody>
-            </table>
+            </table>*/}
           </div>
 
           <h2>Medios de Pago</h2>
@@ -109,9 +117,9 @@ export const TerminosYCondiciones = () => {
           <p>SINPE MÓVIL: Al 8747-1657 a nombre de EcoNet Zarcero SRL</p>
           <p>CARGO AUTOMÁTICO DE FACTURACIÓN</p>
           <p>El usuario final podrá solicitar en cualquier momento pagar su factura mensual a través de Cargo Automático de Facturación;
-            para esto deberá llenar el formulario que se encuentra en la CARÁTULA DEL CONTRATO sección 8, 
+            para esto deberá llenar el formulario que se encuentra en la CARÁTULA DEL CONTRATO sección 8,
             donde autorizará al proveedor/operador a descontar mensualmente los montos de su facturación de una tarjeta de crédito o débito.</p>
-          
+
 
           <h2>Calidad de Servicio</h2>
           <p>Se establece según la Cláusula 18 del Contrato de Adhesión que indica:</p>
@@ -144,27 +152,95 @@ export const TerminosYCondiciones = () => {
             En caso de interrupciones o degradación, la compensación se calculará como:<br />
             <em>Compensación = 2 × Tarifa Recurrente × (Tiempo de interrupción)/(Duración del mes)</em>
           </p>
-          <p>Para efectos de la contabilización en la fórmula anterior, se considera que una degradación en un servicio de telecomunicaciones constituye una interrupción, 
+          <p>Para efectos de la contabilización en la fórmula anterior, se considera que una degradación en un servicio de telecomunicaciones constituye una interrupción,
             cuando al menos uno de los indicadores particulares definidos en el RPCS para el servicio en cuestión, tenga un cumplimiento igual o inferior a un 40%</p>
 
           <h2>Equipos Terminales y Condiciones</h2>
-          <p>EcoNet Zarcero SRL suministra los siguientes modelos según disponibilidad: Archer C50, Cudy AX1500, Mikrotik Sxtsq 5AC, Disc Lite 5, LHG 5.</p>
-          <ul className="terms-list">
-            <li>Espacio adecuado para instalación.</li>
-            <li>Un ambiente libre de polvo y humedad.</li>
-            <li>Suministro eléctrico de 110VAC.</li>
-            <li>Permisos y accesos necesarios.</li>
-            <li>Facilitar acceso al personal técnico.</li>
+          <p>EcoNet Zarcero SRL suministra el equipo terminal necesario para el servicio bajo la figura de <b>Alquiler</b>,
+            con un costo mensual de <b>₡1,500.00 (IVAI)</b>, el cual ya se encuentra <b> incluido en el precio final de cada plan.</b></p>
+          <ul className="list-group-numbered">
+            <li>
+              <b>Suministro según Disponibilidad y Zona</b>
+              <p>La marca y modelo del equipo a instalar quedan sujetos a la disponibilidad técnica y la infraestructura de red de la zona específica.
+                Los modelos estándar utilizados son:</p>
+              <ul className="terms-list">
+                <li >
+                  Tecnología Mikrotik: Sxtsq 5AC, LHG 5.
+                </li>
+                <li>
+                  Tecnología Ubiquiti: Litebeam Gen2.
+                </li>
+              </ul>
+            </li>
+            <li><b>Requisitos de Instalación</b>
+              <p>El cliente debe garantizar las condiciones óptimas para el equipo suministrado::</p>
+              <ul className="terms-list">
+                <li >
+                  Espacio adecuado para instalación y ambiente libre de polvo/humedad.
+                </li>
+                <li>
+                  Suministro eléctrico de 110VAC.
+                </li>
+                <li>
+                  Permisos y accesos necesarios para el personal técnico.
+                </li>
+              </ul></li>
+            <li><b>Opción de Equipo Propio (Aporte del Usuario)</b>
+              <p>Si el usuario final suministra sus propios equipos, estos deberán estar debidamente Homolgados por SUTEL para garantizar un correcto funcionamiento del servicio
+                suscrito. De lo contrario, si el usuario final aporta su propio equipo terminal sin que se encuentre debidamente Homologado, el operador/proveedor no será
+                responsable por problemas de calidad experimentados en el servicio contratado, y renuncia a futuras reclamaciones ante la Sutel por este particular.
+                Además, la actualización, mantenimiento, reparación y reposición del equipo terminal aportado correrá por su cuenta. </p>
+              <p><b>Características Técnicas Mínimas para equipo propio:</b></p>
+              <ul className="terms-list">
+                <li >
+                  <b>Interfaz:</b> Puerto WAN Gigabit Ethernet (10/100/1000 Mbps).
+                </li>
+                <li>
+                  <b>Protocolos obligatorios:</b> Soporte para PPPoE y capacidad de gestión de VLANs (Etiquetado 802.1Q).
+                </li>
+                <li>
+                  <b>Recomendación inalámbrica:</b> Para disfrutar de las velocidades contratadas, se recomienda estándar Wi-Fi 5 (802.11ac) o superior.
+                </li>
+              </ul>
+
+            </li>
           </ul>
 
           <h2>Horario de Atención al Cliente</h2>
           <p>
-            Lunes a Viernes: 7am – 7pm | Fines de semana y feriados: 8am – 5pm (Tel.: 800-EcoNet o 8747-1656).<br />
+            Lunes a Viernes: 7am – 7pm | Fines de semana y feriados: 8am – 5pm (Tel.: 800-EcoNetCR o 8747-1656).<br />
             Atención presencial: 50m norte de Coocique, Zarcero (9:30am – 5:30pm).
           </p>
 
           <h2>Modificaciones</h2>
-          <p>EcoNet Zarcero SRL se reserva el derecho de modificar estos términos en cualquier momento. Las modificaciones serán notificadas en el sitio web.</p>
+          <p>Cualquier propuesta de modificación del presente contrato, deberá ser aprobada por la Sutel. El operador/proveedor notificará cualquier modificación contractual
+            al medio de notificación señalado en el contrato, con una antelación mínima de un (1) mes calendario a su entrada en vigencia, y cuando las modificaciones
+            apliquen a múltiples usuarios finales, además, las publicará en el sitio web www.econetzarcero.com y redes sociales del operador/proveedor en el mismo plazo.
+            En caso de que dicha modificación sea en detrimento de las condiciones establecidas en el contrato de adhesión, el operador/proveedor informará sobre el
+            derecho del usuario final.
+          </p>
+          <p>En los casos que el usuario final solicite una ampliación o modificación de las condiciones contractuales previamente suscritas, el operador/proveedor
+            debe registrar el consentimiento del usuario final. Para lo anterior, el operador/proveedor deberá indicar en el sitio web www.pronetcr.com y los canales de
+            atención en que puede realizar dicha solicitud.</p>
+
+          <h2>Gestión de Reclamaciones y Atención al Usuario</h2>
+          <ul className="terms-list">
+            <li><b>Interposición de reclamaciones ante el operador</b>
+              <p>
+                Las reclamaciones podrán presentarse de forma gratuita por los usuarios finales o personas autorizadas a través de nuestros Centros de Atención 
+                (presencial en Zarcero o remoto vía 800-ECONETCR). Contamos con mecanismos de asistencia para usuarios con discapacidad.
+              </p>
+              <p>Para cada gestión, EcoNet Zarcero brindará al usuario un número consecutivo de referencia. La presentación no requiere abogado ni documentos formales. 
+                El plazo máximo para resolver y brindar respuesta efectiva es de <b>diez (10) días hábiles.</b></p>
+            </li>
+            <li><b>Procedimiento de intervención de la SUTEL</b>
+            <p>
+              En caso de resolución negativa, insuficiente o ausencia de resolución (respuesta omisa) por nuestra parte, el usuario final podrá acudir a la SUTEL 
+              (Línea 800-88-SUTEL / www.sutel.go.cr). Esta gestión no está sujeta a formalidades, siempre que se cumpla con los requisitos mínimos exigidos en la normativa.
+            </p>
+            </li>
+
+          </ul>
 
           <h2>Contacto</h2>
           <p>Para dudas o reclamos: <a href="mailto:econetzarcero@gmail.com" className="terms-link">econetzarcero@gmail.com</a></p>
@@ -172,7 +248,7 @@ export const TerminosYCondiciones = () => {
 
         <footer className="terms-footer">
           <p>Fecha de última actualización: 25 de abril de 2025</p>
-        <p>© 2025 EcoNet Zarcero SRL. Todos los derechos reservados.</p></footer>
+          <p>© 2025 EcoNet Zarcero SRL. Todos los derechos reservados.</p></footer>
       </section>
     </div>
   );

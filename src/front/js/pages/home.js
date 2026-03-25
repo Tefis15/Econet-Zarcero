@@ -68,22 +68,23 @@ export const Home = () => {
           </div>
           <div className="servicio">
             <div>
-              <i className="fa-solid fa-wifi"></i>
-              <span>+</span>
-              <i className="fa-solid fa-tv"></i>
+              <i class="fa-solid fa-user-secret"></i>
+              
             </div>
-            <p className="servicio-tittle">Planes EcoDúo (Internet + TV)</p>
-            <p className="servicio-parrafo">Disfrutarás de lo mejor de ambos mundos: Internet de alta velocidad junto a TV digital. Todo en un solo plan para que tu entretenimiento y conexión nunca se detengan.</p>
-         
-              <button type="button" className="btn-principal">Próximamente</button>
+            <p className="servicio-tittle">Seguridad</p>
+            <p className="servicio-parrafo">Instalación experta de cámaras de seguridad y sistemas de alarma. Tu tranquilidad es nuestra prioridad; protegemos 
+              tu hogar con tecnología de vanguardia y soporte local.</p>
+               <a href={"https://wa.me/50687471656?text=🌐%20¡Hola!%20Estoy%20interesado/a%20en%20soluciones%20de%20seguridad%20🚀"} 
+                type="button" target="black" className="btn-principal text-decoration-none">Cotizar ahora</a>
            
           </div>
           <div className="servicio">
             <i className="i-servicio fa-solid fa-map-location-dot"></i>
-            <p className="servicio-tittle">Cobertura</p>
-            <p className="servicio-parrafo">Verifica la disponibilidad de nuestros servicios en tu zona y descubre cómo podemos conectar tu hogar o negocio. Nos comprometemos a brindarte una conexión estable y rápida, sin importar dónde te encuentres.</p>
+            <p className="servicio-tittle">Mapas de alcance de red</p>
+            <p className="servicio-parrafo">Verifica la disponibilidad de nuestros servicios en tu zona y descubre cómo podemos conectar tu hogar o 
+              negocio. Nos comprometemos a brindarte una conexión estable y rápida, sin importar dónde te encuentres.</p>
             <Link to="/cobertura">
-              <button type="button" className="btn-principal">Cobertura</button>
+              <button type="button" className="btn-principal">Alcance de red</button>
             </Link>
           </div>
         </div>
