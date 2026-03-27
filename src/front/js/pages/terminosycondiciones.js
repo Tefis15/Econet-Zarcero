@@ -247,7 +247,7 @@ export const TerminosYCondiciones = () => {
         </div>
 
         <footer className="terms-footer">
-          <p>Fecha de última actualización: 25 de abril de 2025</p>
+          <p>Fecha de última actualización: 25 de marzo de 2026</p>
           <p>© 2025 EcoNet Zarcero SRL. Todos los derechos reservados.</p></footer>
       </section>
     </div>
