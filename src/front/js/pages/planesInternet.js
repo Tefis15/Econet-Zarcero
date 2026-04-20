@@ -71,7 +71,7 @@ export const PlanesInternet = () => {
                 </div>
 
                 <p className="planes-intro-desc">
-                    El equipo terminal se entrega bajo la figura de alquiler, cuyo costo se encuentra totalmente incluido en el precio mensual del plan (₡1 500 IVAI). 
+                    El equipo terminal se entrega bajo la figura de alquiler, cuyo costo se encuentra totalmente incluido en el precio mensual del plan (₡1 500 IVAI/mes). 
                     La entrega se realiza mediante instalación técnica en el domicilio del abonado.
                 </p>
                 
@@ -126,8 +126,7 @@ export const PlanesInternet = () => {
                         </h2>
                         <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div className="accordion-body">
-                            Nuestro plazo oficial para la instalación y activación del servicio es de <b>4 días hábiles</b>, una vez confirmada la factibilidad técnica y 
-                            agendada la visita. ¡Trabajamos para conectar su hogar de forma eficiente y segura!
+                            Nuestro plazo oficial para la instalación y activación del servicio es de <b>4 días hábiles</b> ¡Trabajamos para conectar su hogar de forma eficiente y segura!
                             </div>
                         </div>
                     </div>
