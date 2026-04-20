@@ -44,9 +44,7 @@ export const TerminosYCondiciones = () => {
             <li>Reconexión de servicio: ₡8,000 IVAI, incluye traslado de equipo técnico para la reconexión.</li>
             <li>Solo se cobrará uno de los dos costos anteriores, según aplique.</li>
             <li>Visitas técnicas no justificadas: ₡18,000 IVAI en segunda visita, cargado a la próxima factura.</li>
-            <li>Alquiler de equipo terminal: ₡1,500/mes más IVA, incluido en el precio final.</li>
-            <li>Los precios publicados incluyen IVA y cargos regulatorios.</li>
-            <li>Pago mensual según plan contratado.</li>
+            <li>Alquiler de equipo terminal: ₡1,500/mes IVAI, incluido en el precio final.</li>
             <li>Instalación gratis.</li>
             <li>Sin depósito de garantía.</li>
           </ul>
@@ -164,11 +162,21 @@ export const TerminosYCondiciones = () => {
               <p>La marca y modelo del equipo a instalar quedan sujetos a la disponibilidad técnica y la infraestructura de red de la zona específica.
                 Los modelos estándar utilizados son:</p>
               <ul className="terms-list">
-                <li >
-                  Tecnología Mikrotik: Sxtsq 5AC, LHG 5.
+                <li>
+                  Marca: Mikrotik<br />
+                  Modelo: SXTsq 5ac<br />
+                  Oficio de Aprobación: 07502-SUTEL-DGC-2021
                 </li>
                 <li>
-                  Tecnología Ubiquiti: Litebeam Gen2.
+                  Marca: Mikrotik<br />
+                  Modelo: LHG 5<br />
+                  Oficio de Aprobación: 02342-SUTEL-DGC-2024
+                </li>
+                <li>
+                  Marca: Ubiquiti <br />
+                  Modelo: LBE-5AC-Gen2<br />
+                  Oficio de Aprobación: 03911-SUTEL-DGC-2021
+
                 </li>
               </ul>
             </li>
@@ -206,22 +214,18 @@ export const TerminosYCondiciones = () => {
             </li>
           </ul>
 
-          <h2>Horario de Atención al Cliente</h2>
-          <p>
-            Lunes a Viernes: 7am – 7pm | Fines de semana y feriados: 8am – 5pm (Tel.: 800-EcoNetCR o 8747-1656).<br />
-            Atención presencial: 50m norte de Coocique, Zarcero (9:30am – 5:30pm).
-          </p>
+       
 
           <h2>Modificaciones</h2>
-          <p>Cualquier propuesta de modificación del presente contrato, deberá ser aprobada por la Sutel. El operador/proveedor notificará cualquier modificación contractual
-            al medio de notificación señalado en el contrato, con una antelación mínima de un (1) mes calendario a su entrada en vigencia, y cuando las modificaciones
-            apliquen a múltiples usuarios finales, además, las publicará en el sitio web www.econetzarcero.com y redes sociales del operador/proveedor en el mismo plazo.
-            En caso de que dicha modificación sea en detrimento de las condiciones establecidas en el contrato de adhesión, el operador/proveedor informará sobre el
-            derecho del usuario final.
+          <p>Cualquier propuesta de modificación del presente contrato, deberá ser aprobada por la Sutel. El operador/proveedor notificará cualquier modificación 
+            contractual al medio de notificación señalado en el contrato, con una antelación mínima de un (1) mes calendario a su entrada en vigencia, y 
+            cuando las modificaciones apliquen a múltiples usuarios finales, además, las publicará en su sitio WEB www.econetzarcero.com y redes sociales del operador/proveedor
+            en el mismo plazo. En caso de que dicha modificación sea en detrimento de las condiciones establecidas en el contrato de adhesión, el operador/proveedor 
+            informará sobre el derecho del usuario final de rescindir anticipadamente el contrato sin penalización alguna. Las modificaciones contractuales no 
+            aplicarán durante la vigencia de la permanencia mínima. 
           </p>
-          <p>En los casos que el usuario final solicite una ampliación o modificación de las condiciones contractuales previamente suscritas, el operador/proveedor
-            debe registrar el consentimiento del usuario final. Para lo anterior, el operador/proveedor deberá indicar en el sitio web www.econetzarcero.com y los canales de
-            atención en que puede realizar dicha solicitud.</p>
+          <p>En los casos que el usuario final solicite una ampliación o modificación de las condiciones contractuales previamente suscritas, el operador/proveedor 
+            debe registrar el consentimiento del usuario final. Para lo anterior, el operador/proveedor deberá indicar en su sitio WEB www.econetzarcero.com los canales de atención en que puede realizar dicha solicitud. </p>
 
           <h2>Gestión de Reclamaciones y Atención al Usuario</h2>
           <ul className="terms-list">
@@ -241,6 +245,11 @@ export const TerminosYCondiciones = () => {
             </li>
 
           </ul>
+             <h2>Horario de Atención al Cliente</h2>
+          <p>
+            Lunes a Viernes: 7am – 7pm | Fines de semana y feriados: 8am – 5pm (Tel.: 800-EcoNetCR o 8747-1656).<br />
+            Atención presencial: 50m norte de Coocique, Zarcero (9:30am – 5:30pm).
+          </p>
 
           <h2>Contacto</h2>
           <p>Para dudas o reclamos: <a href="mailto:econetzarcero@gmail.com" className="terms-link">econetzarcero@gmail.com</a></p>
