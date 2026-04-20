@@ -83,7 +83,7 @@ export const Home = () => {
             <p className="servicio-tittle">Mapas de alcance de red</p>
             <p className="servicio-parrafo">Verifica la disponibilidad de nuestros servicios en tu zona y descubre cómo podemos conectar tu hogar o 
               negocio. Nos comprometemos a brindarte una conexión estable y rápida, sin importar dónde te encuentres.</p>
-            <Link to="/cobertura">
+            <Link to="/mapasDeAlcanceDeRed">
               <button type="button" className="btn-principal">Alcance de red</button>
             </Link>
           </div>

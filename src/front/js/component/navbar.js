@@ -33,7 +33,7 @@ export const Navbar = () => {
 							</li>
 						</Link>
 
-						<Link to="/cobertura" className="nav-link text-decoration-none">
+						<Link to="/mapasDeAlcanceDeRed" className="nav-link text-decoration-none">
 							<li className="nav-link nav-item nav-menu" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02">
 								<span className="nav-span">MAPAS DE ALCANCE DE RED</span>
 							</li>
