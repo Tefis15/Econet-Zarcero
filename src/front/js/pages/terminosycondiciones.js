@@ -50,21 +50,21 @@ export const TerminosYCondiciones = () => {
           </ul>
 
           <h2>Sobre la Extinción del Contrato</h2>
-          <p>Ante la terminación de la relación comercial, sin importar el motivo, el usuario final tiene la obligación de devolver el equipo terminal propiedad de 
+          <p>Ante la terminación de la relación comercial, sin importar el motivo, el usuario final tiene la obligación de devolver el equipo terminal propiedad de
             EcoNet Zarcero. Para su comodidad, ofrecemos las siguientes opciones:</p>
-            <ul className="list-group-numbered">
-              <li>
-                <b>Retiro en Domicilio:</b> El operador visitará el domicilio del usuario final para recuperar los equipos sin costo alguno. El usuario debe 
-                facilitar el acceso al personal técnico para este fin.
-              </li>
-              <li>
-                <b>Entrega Presencial:</b>El usuario final puede entregar los equipos personalmente en nuestras oficinas.
-              </li>
-              <li>
-                <b>Tercero Autorizado:</b> Un tercero debidamente autorizado por escrito por el titular también podrá realizar la entrega física de los equipos.
-              </li>
-            </ul>
-            <p><b>Dirección de entrega:</b> 50 metros norte de Coocique, Zarcero, Alajuela.<br></br>
+          <ul className="list-group-numbered">
+            <li>
+              <b>Retiro en Domicilio:</b> El operador visitará el domicilio del usuario final para recuperar los equipos sin costo alguno. El usuario debe
+              facilitar el acceso al personal técnico para este fin.
+            </li>
+            <li>
+              <b>Entrega Presencial:</b>El usuario final puede entregar los equipos personalmente en nuestras oficinas.
+            </li>
+            <li>
+              <b>Tercero Autorizado:</b> Un tercero debidamente autorizado por escrito por el titular también podrá realizar la entrega física de los equipos.
+            </li>
+          </ul>
+          <p><b>Dirección de entrega:</b> 50 metros norte de Coocique, Zarcero, Alajuela.<br></br>
             <b>Horario:</b> Lunes a viernes de 10:00 am a 5:00 pm.<br></br>
             <b>Plazo:</b> La devolución o retiro debe gestionarse en un plazo no mayor a treinta (30) días calendario tras la terminación del contrato.</p>
 
@@ -214,38 +214,51 @@ export const TerminosYCondiciones = () => {
             </li>
           </ul>
 
-       
 
-          <h2>Modificaciones</h2>
-          <p>Cualquier propuesta de modificación del presente contrato, deberá ser aprobada por la Sutel. El operador/proveedor notificará cualquier modificación 
-            contractual al medio de notificación señalado en el contrato, con una antelación mínima de un (1) mes calendario a su entrada en vigencia, y 
-            cuando las modificaciones apliquen a múltiples usuarios finales, además, las publicará en su sitio WEB www.econetzarcero.com y redes sociales del operador/proveedor
-            en el mismo plazo. En caso de que dicha modificación sea en detrimento de las condiciones establecidas en el contrato de adhesión, el operador/proveedor 
-            informará sobre el derecho del usuario final de rescindir anticipadamente el contrato sin penalización alguna. Las modificaciones contractuales no 
-            aplicarán durante la vigencia de la permanencia mínima. 
-          </p>
-          <p>En los casos que el usuario final solicite una ampliación o modificación de las condiciones contractuales previamente suscritas, el operador/proveedor 
-            debe registrar el consentimiento del usuario final. Para lo anterior, el operador/proveedor deberá indicar en su sitio WEB www.econetzarcero.com los canales de atención en que puede realizar dicha solicitud. </p>
+
+          <h2>Modificaciones de Precios y Contractuales</h2>
+          <ul className="terms-list">
+            <li><b>Modificaciones de Precios</b>
+              <p>
+                De conformidad con el Artículo 56 del Reglamento sobre el Régimen de Protección al Usuario Final (RPUF), cualquier modificación en las tarifas de los
+                servicios será informada a la Superintendencia de Telecomunicaciones (SUTEL) con al menos diez (10) días hábiles de antelación a su publicación.
+                <br></br>
+                Asimismo, el operador notificará a los abonados y usuarios finales sobre dichas modificaciones con una antelación mínima de cinco (5) días hábiles a su
+                entrada en vigencia, mediante la publicación en este sitio web oficial y a través de al menos dos medios de comunicación masiva o notificación directa
+                al medio señalado en el contrato.</p>
+            </li>
+            <li><b>Modificaciones Contractuales</b>
+              <p>Cualquier propuesta de modificación del presente contrato, deberá ser aprobada por la Sutel. El operador/proveedor notificará cualquier modificación
+                contractual al medio de notificación señalado en el contrato, con una antelación mínima de un (1) mes calendario a su entrada en vigencia, y
+                cuando las modificaciones apliquen a múltiples usuarios finales, además, las publicará en su sitio WEB www.econetzarcero.com y redes sociales del operador/proveedor
+                en el mismo plazo. En caso de que dicha modificación sea en detrimento de las condiciones establecidas en el contrato de adhesión, el operador/proveedor
+                informará sobre el derecho del usuario final de rescindir anticipadamente el contrato sin penalización alguna. Las modificaciones contractuales no
+                aplicarán durante la vigencia de la permanencia mínima.
+                <br></br>
+                En los casos que el usuario final solicite una ampliación o modificación de las condiciones contractuales previamente suscritas, el operador/proveedor
+                debe registrar el consentimiento del usuario final. Para lo anterior, el operador/proveedor deberá indicar en su sitio WEB www.econetzarcero.com los canales de atención en que puede realizar dicha solicitud. </p>
+            </li>
+          </ul>
 
           <h2>Gestión de Reclamaciones y Atención al Usuario</h2>
           <ul className="terms-list">
             <li><b>Interposición de reclamaciones ante el operador</b>
               <p>
-                Las reclamaciones podrán presentarse de forma gratuita por los usuarios finales o personas autorizadas a través de nuestros Centros de Atención 
+                Las reclamaciones podrán presentarse de forma gratuita por los usuarios finales o personas autorizadas a través de nuestros Centros de Atención
                 (presencial en Zarcero o remoto vía 800-ECONETCR). Contamos con mecanismos de asistencia para usuarios con discapacidad.
               </p>
-              <p>Para cada gestión, EcoNet Zarcero brindará al usuario un número consecutivo de referencia. La presentación no requiere abogado ni documentos formales. 
+              <p>Para cada gestión, EcoNet Zarcero brindará al usuario un número consecutivo de referencia. La presentación no requiere abogado ni documentos formales.
                 El plazo máximo para resolver y brindar respuesta efectiva es de <b>diez (10) días hábiles.</b></p>
             </li>
             <li><b>Procedimiento de intervención de la SUTEL</b>
-            <p>
-              En caso de resolución negativa, insuficiente o ausencia de resolución (respuesta omisa) por nuestra parte, el usuario final podrá acudir a la SUTEL 
-              (Línea 800-88-SUTEL / www.sutel.go.cr). Esta gestión no está sujeta a formalidades, siempre que se cumpla con los requisitos mínimos exigidos en la normativa.
-            </p>
+              <p>
+                En caso de resolución negativa, insuficiente o ausencia de resolución (respuesta omisa) por nuestra parte, el usuario final podrá acudir a la SUTEL
+                (Línea 800-88-SUTEL / www.sutel.go.cr). Esta gestión no está sujeta a formalidades, siempre que se cumpla con los requisitos mínimos exigidos en la normativa.
+              </p>
             </li>
 
           </ul>
-             <h2>Horario de Atención al Cliente</h2>
+          <h2>Horario de Atención al Cliente</h2>
           <p>
             Lunes a Viernes: 7am – 7pm | Fines de semana y feriados: 8am – 5pm (Tel.: 800-EcoNetCR o 8747-1656).<br />
             Atención presencial: 50m norte de Coocique, Zarcero (9:30am – 5:30pm).
