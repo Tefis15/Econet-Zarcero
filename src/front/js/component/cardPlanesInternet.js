@@ -15,7 +15,7 @@ export const CardPlanesInternet = ({megas, titulo, precio, descripcion}, ...prop
                 <p className="card-paquete-desc">{descripcion}</p>
                 <div className="card-precio">{"₡" + precio} <span className="card-precio-periodo">/ mes</span></div>
                 <p className="card-includes">
-                    Incluye IVA, impuestos 911, parafiscales, alquiler de equipo terminal ₡1500 IVAI/mes e instalación.
+                    Incluye IVA, impuestos 911, parafiscales, alquiler de equipo terminal ₡1500 IVAI/mes.
                 </p>
                 <p className="card-includes">
                     Velocidad de subida: 15 Mbps
