@@ -228,7 +228,7 @@ export const TerminosYCondiciones = () => {
                 al medio señalado en el contrato.</p>
             </li>
             <li><b>Modificaciones Contractuales</b>
-              <p>Cualquier propuesta de modificación del presente contrato, deberá ser aprobada por la Sutel. El operador/proveedor notificará cualquier modificación
+              <p>Cualquier propuesta de modificación del contrato, deberá ser aprobada por la Sutel. El operador/proveedor notificará cualquier modificación
                 contractual al medio de notificación señalado en el contrato, con una antelación mínima de un (1) mes calendario a su entrada en vigencia, y
                 cuando las modificaciones apliquen a múltiples usuarios finales, además, las publicará en su sitio WEB www.econetzarcero.com y redes sociales del operador/proveedor
                 en el mismo plazo. En caso de que dicha modificación sea en detrimento de las condiciones establecidas en el contrato de adhesión, el operador/proveedor
